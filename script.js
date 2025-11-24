@@ -41,9 +41,9 @@ function playGame(userChoice) {
         roundResult = "It's a tie! 🤝";
     } 
     else if (
-        (userChoice === 'rock' && computerChoice === 'scissors') || // Rock beats Scissors
-        (userChoice === 'paper' && computerChoice === 'rock') ||    // Paper beats Rock
-        (userChoice === 'scissors' && computerChoice === 'paper')   // Scissors beats Paper
+        (userChoice === 'rock' && computerChoice === 'scissors') || 
+        (userChoice === 'paper' && computerChoice === 'rock') ||    
+        (userChoice === 'scissors' && computerChoice === 'paper')   
     ) {
         roundResult = 'You win! 🎉';
 		userScore++;
